@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+header{
+    background-color: #def5ce;
+    padding: 15px 0px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.navs ul,.list ul{
+    display: flex;
+    gap: 20px;
+}
+.topElement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li a{
+    color: #024ea1;
+    font-weight: bold;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.qrs{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.follow{
+    font-size: small;
+}
+.navs{
+    background-color: #024ea1;
+    padding: 25px 0;
+}
+.navs ul li a{
+    color: #fff;
+}
+.navs ul li a i{
+    font-size: 13px;
+}
+#webMail{
+    background-color: #02a10f;
+    border-radius: 10px;
+    padding: 15px;
+}
+.dropdown-content {
+    display: none; 
+    position: absolute; 
+    background-color: #f9f9f9; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 3; 
+} 
+.dropdown-content a { 
+    color: #000 !important;
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block;
+    border-top: 1px solid #ddd;
+} 
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content { 
+    display: block;
+}
+#vendorEnlist{
+    background-color: #b55b00;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+#vendorEnlist:hover{
+    background-color: green;
+    color:#fff;
+}
+h1 {
+    color: #02a10f;
+    padding-top: 0px;
+    font-size: 28px;
+}
+.box1 p{
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.readMore{
+    background-color: #024ea1;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.readMore:hover{
+    background-color: aqua;
+    color: #000;
+}
+
+.introduction{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.box1{
+    width: 30%;
+}
+#slider1{
+    width: 70%;
+}
+#slider1 .owl-prev{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -1%);
+}
+#slider1 .owl-prev span,.owl-next span{
+    font-size: 40px;
+    color: #fff;
+}
+#slider1 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background-color: #00000090;
+    color: inherit;
+    border: none;
+    padding: 5px 14px !important;
+    font: inherit;
+    border-radius: 50%;
+}
+#slider1 .owl-next{
+    position: absolute;
+    top: 50%;
+    right: -3%;
+    transform: translate(-50%, -1%);
+}
+
+#slider2 .owl-carousel button.owl-dot {
+    background-color: #fff;
+    padding: 0px !important;
+}
+#slider2 p{
+    color: #fff;
+    padding: 12px 12px;
+    font-size: 25px;
+    background-color: #000;
+    opacity: 80%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+#slider2 img{
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.image-container { 
+    position: relative; 
+    display: inline-block; 
+} 
+.image-container img { 
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+.overlay { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0);  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+} 
+.image-container:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.7); 
+    opacity: 1; 
+}
+.progress{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.progress .box{
+    text-align: center;
+    width: 72px;
+}
+.progress .box p{
+    color: #024ea1;
+    font-weight: bold;
+}
+.vision{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.aboutSkbbl{
+    margin-top: 40px;
+    background:url('https://www.skbbl.com.np/frontend/images/greenbg.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutSkbbl p{
+    color: #fff;
+    font-size: 25px;
+    padding: 60px 100px;
+    text-align: center;
+    line-height: 1.5;
+}
+.aboutProjects{
+    margin: 40px 0;
+}
+.ourProjects{
+    display: flex;
+    gap: 20px;
+}
+.ourProjects .pro{
+    width: 60%;
+}
+.ourProjects .gallery{
+    width: 40%;
+}
+
+.pro p{
+    color: #024ea1;
+    font-size: 22px;
+}
+.detail p{
+    color: #000;
+    opacity: 85%;
+    font-size:16px;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    padding-left: 0px;
+    word-spacing: 5px;
+    line-height: 1.4;
+    text-align: justify;
+}
+.ourProjects .project{
+    display: flex;
+    gap: 20px;
+}
+.photo{
+    width: 40%;
+}
+.detail{
+    width: 60%;
+}
+.gallery img{
+    width: 100% !important;
+}
+.happyFarmer{
+    display: flex;
+    gap: 20px;
+}
+.farmerReview{
+    width: 60%;
+}
+.reviews{
+    display: flex;
+    gap: 10px;
+}
+.reviews iframe{
+    height: 250px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+.review1,.review2{
+    width: 50%;
+}
+.aboutFarmer{
+    width: 40%;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+.aboutFarmer p{
+    color: #000;
+    opacity: 85%;
+    font-size:16px;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    padding-left: 0px;
+    word-spacing: 5px;
+    line-height: 1.4;
+    text-align: start;
+}
+#footerImage {
+    padding-top: 40px;
+}
+footer{
+    background-color: #024ea1;
+    margin-top: -10px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer li{
+    list-style: none;
+    padding: 5px 0px;
+}
+.links{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+.officer{
+    display: flex;
+    gap: 20px;
+}
+.officer img{
+    padding: 5px 0px;
+    border-radius: 7px;
+
+}
+footer h3{
+    color: #d2edc0;
+    padding: 10px 0px;
+}
+footer i{
+    font-size: 20px;
+    padding-right: 5px;
+}
+.bottomFooter{
+    padding: 20px 0px;
+    background-color: #fff;
+}
+.bottomContent{
+    display: flex;
+    justify-content: space-between;
+}
+.socialLinks a{
+    text-decoration: none;
+    margin: 4px;
+    
+}
+.socialLinks i{
+    font-size: 12px;
+    color: #fff;
+    background-color:#666666;
+    padding: 10px;
+    border-radius: 50%;
+    transition: font-size 0.3s ease;
+}
+.socialLinks i:hover{
+    background-color: #024ea1;
+    font-size: 20px;
+}
+#hamburger i{
+ font-size: 40px;
+ color: #000;
+ margin-top: -8px;
+ display: none;
+} 
+
+@media (max-width:480px)
+{
+.topElement{
+    flex-wrap: wrap;
+}
+.topElement ul li a{
+    font-size: 11px;
+}
+.navs{
+    display: none;
+}
+#hamburger i{
+    display: block;
+}
+ .youtubeQr,.facebookQr{
+    display: none;
+ }
+ .introduction{
+    flex-direction: column;
+ }
+ .box1{
+    width: 100%;
+}
+#slider1{
+    width: 100%;
+}
+.owl-theme .owl-nav {
+    display: none;
+}
+
+.ourProjects{
+    flex-direction: column;
+}
+.ourProjects .pro{
+    width: 100%;
+}
+.ourProjects .gallery{
+    width: 100%;
+}
+.ourProjects .project{
+    flex-direction: column;
+}
+.photo{
+    width: 100%;
+}
+.detail{
+    width: 100%;
+}
+.detail p{
+    padding-top: 0px;
+}
+ .progress{
+    flex-wrap: wrap;
+ }
+ .aboutSkbbl p{
+    padding: 30px;
+    font-size: 20px;
+ }
+
+ .happyFarmer{
+    flex-direction: column;
+ }
+ .farmerReview{
+    width: 100%;
+ }
+ .reviews{
+    flex-direction: column;
+ }
+ .review1,.review2{
+    width: 100%;
+ }
+ .aboutFarmer{
+    width: 100%;
+ }
+ .links{
+    flex-direction: column;
+ }
+ .bottomContent{
+    flex-direction: column;
+ }
+}
+@media (min-width:481px) and (max-width:768px)
+{
+    .topElement{
+        flex-wrap: wrap;
+    }
+    .topElement ul li a{
+        font-size: 16px;
+    }
+    .navs{
+        display: none;
+    }
+     .youtubeQr,.facebookQr{
+        display: none;
+     }
+     #hamburger i{
+        display: block;
+     }
+     .introduction{
+        flex-direction: column;
+     }
+     .box1{
+        width: 100%;
+    }
+    #slider1{
+        width: 100%;
+    }
+     .progress{
+        flex-wrap: wrap;
+     }
+     .ourProjects{
+        flex-direction: column;
+    }
+    .ourProjects .pro{
+        width: 100%;
+    }
+    .ourProjects .gallery{
+        width: 100%;
+    }
+    .photo{
+        width: 100%;
+    }
+    .detail{
+        width: 100%;
+    }
+    .detail p{
+        padding-top: 0px;
+    }
+    .happyFarmer{
+        flex-direction: column;
+     }
+     .farmerReview{
+        width: 100%;
+     }
+     .review1,.review2{
+        width: 100%;
+     }
+     .aboutFarmer{
+        width: 100%;
+     }
+     .links{
+        flex-wrap: wrap;
+        gap: 10px;
+     }
+     .bottomContent{
+        flex-wrap: wrap;
+        gap: 1px;
+        justify-content: space-between;
+     }
+}
+@media (min-width:769px) and (max-width:1024px)
+{
+    .navs{
+        display: none;
+    }
+     .youtubeQr,.facebookQr{
+        display: none;
+     }
+     #hamburger i{
+        display: block;
+     }
+     .progress{
+        flex-wrap: wrap;
+        gap: 10px;
+     }
+}
+@media (min-width:1025px) and (max-width:1400px)
+{
+    .navs ul{
+        flex-wrap: wrap;
+        height: 18px;
+    }
+}
+
+
